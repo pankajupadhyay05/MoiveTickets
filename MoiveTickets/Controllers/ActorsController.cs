@@ -9,7 +9,7 @@ namespace MoiveTickets.Controllers
 {
     public class ActorsController : Controller
     {
-        private readonly IEntityBase<Actor> _service;
+        private readonly IActorsService _service;
 
         public ActorsController(IActorsService service)
         {
